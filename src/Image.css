@@ -1,0 +1,25 @@
+.image {
+  display: block;
+  width: 100%;
+  max-width: 512px;
+  object-fit: cover;
+  background-color: hsl(0 0% 90%);
+  transition-property: transform;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.image-img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  background-color: hsl(0 0% 90%);
+  border-radius: 25px;
+}
