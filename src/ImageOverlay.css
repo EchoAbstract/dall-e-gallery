@@ -9,7 +9,7 @@
     left: 0;
     z-index: 9998;
     display: block;
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -34,6 +34,7 @@
     border-width: 5px;
     border-color: rgb(183 47 183);
     border-style: solid;
+    height: max-content;
 }
 
 .image-overlay-img {
@@ -50,4 +51,25 @@
     to {
         scale: 100%;
     }
+}
+
+.image-overlay .prompt {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+        45deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 158, 0, 1) 15%,
+        rgba(219, 255, 0, 1) 30%,
+        rgba(80, 162, 71, 1) 45%,
+        rgba(64, 70, 182, 1) 60%,
+        rgba(158, 46, 202, 1) 75%,
+        rgba(225, 26, 220, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-overlay h2 {
+    font-size: 4rem;
 }

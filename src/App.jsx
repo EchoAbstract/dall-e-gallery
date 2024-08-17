@@ -13,7 +13,9 @@ function App() {
 
   return (
     <>
-      <h1 className={classes}>DALL•E Gallery</h1>
+      <h1 className={classes}>
+        <span className="rainbow">DALL•E Gallery</span>
+      </h1>
       <ImageOverlay image={image} show={show} showSetter={setShow} />
       <Gallery visibilitySetter={setShow} imageSetter={setImage} />
     </>
