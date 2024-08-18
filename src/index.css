@@ -70,7 +70,7 @@ button:focus-visible {
 #background {
     z-index: 0;
     position: fixed;
-    background-image: url("./background.gif");
+    background-image: url("/background.gif");
     background-size: auto;
     margin: auto;
     width: 100%;
