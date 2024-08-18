@@ -1,6 +1,15 @@
-import { open, readdir } from "node:fs/promises";
+import { open, readdir, access, constants } from "node:fs/promises";
 import { basename } from "node:path";
 import { exec } from "node:child_process";
+
+async function exists(file) {
+  try {
+    await access(file, constants.F_OK);
+    return true;
+  } catch (err) {
+    return false;
+  }
+}
 
 try {
   const outFile = await open("./src/listImages.js", "w");
@@ -12,10 +21,15 @@ try {
     if (!file.endsWith(".png")) continue;
     // Make thumbnail
     try {
-      console.log(`Making thumbnail for ${file}`);
-      await exec(
-        `magick "./public/images/${file}" -resize 256x256 "./public/images/thumbnails/${file}"`,
+      const thumbnailExists = await exists(
+        `./public/images/thumbnails/${file}`,
       );
+      if (!thumbnailExists) {
+        console.log(`Making thumbnail for ${file}`);
+        await exec(
+          `magick "./public/images/${file}" -resize 256x256 "./public/images/thumbnails/${file}"`,
+        );
+      }
     } catch (err) {
       console.error(err);
     }

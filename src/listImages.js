@@ -181,6 +181,11 @@ file: "./images/raccoon fighting a chair.png",
 thumbnail: "./images/thumbnails/raccoon fighting a chair.png",
 },
 {
+description: "raccoons at a rave",
+file: "./images/raccoons at a rave.png",
+thumbnail: "./images/thumbnails/raccoons at a rave.png",
+},
+{
 description: "software engineers at work",
 file: "./images/software engineers at work.png",
 thumbnail: "./images/thumbnails/software engineers at work.png",
