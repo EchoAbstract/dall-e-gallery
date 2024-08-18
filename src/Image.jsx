@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import "./Image.css";
 
 function Image(props) {
-  const { file, description, imageClickTrigger, imageSetter } = props;
+  const { file, description, thumbnail, imageClickTrigger, imageSetter } =
+    props;
 
   const onClick = () => {
     imageClickTrigger();
@@ -14,7 +15,7 @@ function Image(props) {
     <>
       <div className="image" onClick={onClick}>
         <p>{description}</p>
-        <img className="image-img" src={file} alt={description}></img>
+        <img className="image-img" src={thumbnail} alt={description}></img>
       </div>
     </>
   );
@@ -22,6 +23,7 @@ function Image(props) {
 
 Image.propTypes = {
   file: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageClickTrigger: PropTypes.func.isRequired,
   imageSetter: PropTypes.func.isRequired,

@@ -14,6 +14,7 @@ function Gallery(props) {
       <Image
         key={image.file}
         file={image.file}
+        thumbnail={image.thumbnail}
         description={image.description}
         imageClickTrigger={imageClickTrigger}
         imageSetter={imageSetter}
