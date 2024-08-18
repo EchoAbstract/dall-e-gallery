@@ -13,9 +13,9 @@
     overflow-x: hidden;
 }
 
-.image-overlay {
+.fade-in {
     animation-name: fadeIn;
-    animation-duration: 0.25s;
+    animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
 }
 
@@ -72,4 +72,24 @@
 
 .image-overlay h2 {
     font-size: 4rem;
+}
+
+.fade-out {
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.hidden {
+    visibility: hidden;
 }

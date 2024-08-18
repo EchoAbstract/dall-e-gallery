@@ -1,34 +1,29 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-import './Image.css'
-
-function handleClick(visibilitySetter, imageSetter, file, description){ 
-  visibilitySetter(true);
-  imageSetter({file, description});
-}
+import "./Image.css";
 
 function Image(props) {
+  const { file, description, imageClickTrigger, imageSetter } = props;
 
-  const { file, description, visibilitySetter, imageSetter } = props;
-
-  const clickWrapper = () => {
-    return handleClick(visibilitySetter, imageSetter, file, description);
+  const onClick = () => {
+    imageClickTrigger();
+    imageSetter({ file, description });
   };
 
   return (
     <>
-      <div className="image" onClick={clickWrapper}>
+      <div className="image" onClick={onClick}>
         <p>{description}</p>
         <img className="image-img" src={file} alt={description}></img>
       </div>
     </>
-  )
+  );
 }
 
 Image.propTypes = {
   file: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  visibilitySetter: PropTypes.func.isRequired,
+  imageClickTrigger: PropTypes.func.isRequired,
   imageSetter: PropTypes.func.isRequired,
-}
-export default Image
+};
+export default Image;

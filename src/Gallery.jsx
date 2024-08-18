@@ -1,36 +1,36 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-import './Gallery.css'
+import "./Gallery.css";
 
-import Image from './Image.jsx'
+import Image from "./Image.jsx";
 
-import listImages from './listImages.js'
+import listImages from "./listImages.js";
 
 function Gallery(props) {
-  const { visibilitySetter, imageSetter } = props;
+  const { imageClickTrigger, imageSetter } = props;
 
   const images = listImages().map((image) => {
-    return <Image 
-      key={image.file}
-      file={image.file}
-      description={image.description}
-      visibilitySetter={visibilitySetter}
-      imageSetter={imageSetter}
-    />;
+    return (
+      <Image
+        key={image.file}
+        file={image.file}
+        description={image.description}
+        imageClickTrigger={imageClickTrigger}
+        imageSetter={imageSetter}
+      />
+    );
   });
 
   return (
     <>
-      <div className="gallery">
-        {images}
-      </div>
+      <div className="gallery">{images}</div>
     </>
-  )
+  );
 }
 
 Gallery.propTypes = {
-  visibilitySetter: PropTypes.func.isRequired,
+  imageClickTrigger: PropTypes.func.isRequired,
   imageSetter: PropTypes.func.isRequired,
-}
+};
 
-export default Gallery
+export default Gallery;

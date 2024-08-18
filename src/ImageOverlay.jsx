@@ -1,27 +1,51 @@
 import PropTypes from "prop-types";
-
 import "./ImageOverlay.css";
 
-function handleClick(showSetter) {
-  showSetter(false);
+import { fadingClassForState, shouldShow } from "./fade";
+
+function animationEndHack() {
+  document.getElementsByClassName("image-overlay")[0].style.display = "none";
 }
 
 function ImageOverlay(props) {
-  const { image, show, showSetter } = props;
+  const { image, fadeState, fadeStep } = props;
   if (!image) {
     return <></>;
   }
   const { file, description } = image;
-  const clickWrapper = () => {
-    return handleClick(showSetter);
+
+  const onClick = () => {
+    fadeStep();
   };
 
-  console.log("fudge", image, show);
+  const onAnimationEnd = (event) => {
+    console.log(`Animation ended: ${event.animationName}`);
+    if (event.animationName === "fadeOut" || event.animationName === "fadeIn") {
+      fadeStep();
+    }
+
+    if (event.animationName === "fadeOut") {
+      animationEndHack();
+    }
+  };
+
+  const onAnimationStart = (event) => {
+    console.log(`Animation started: ${event.animationName}`);
+  };
+
+  const classes = `image-overlay ${fadingClassForState(fadeState)} ${shouldShow(fadeState) ? "" : "hidden"}`;
+
+  console.log(shouldShow(fadeState), classes);
 
   return (
     <>
-      {show && image && (
-        <div className="image-overlay" onClick={clickWrapper}>
+      {shouldShow(fadeState) && image && (
+        <div
+          className={classes}
+          onClick={onClick}
+          onAnimationStart={onAnimationStart}
+          onAnimationEnd={onAnimationEnd}
+        >
           <h2>
             <span className="prompt">Prompt:</span> {description}
           </h2>
@@ -37,8 +61,8 @@ ImageOverlay.propTypes = {
     file: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
   }).isRequired,
-  show: PropTypes.bool.isRequired,
-  showSetter: PropTypes.func.isRequired,
+  fadeState: PropTypes.string.isRequired,
+  fadeStep: PropTypes.func.isRequired,
 };
 
 export default ImageOverlay;

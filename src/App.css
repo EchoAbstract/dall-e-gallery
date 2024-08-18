@@ -14,6 +14,8 @@
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.685);
     border-radius: 20px;
+    opacity: 1;
+    transition: opacity 0.25s;
 }
 
 .rainbow {
@@ -36,4 +38,9 @@
 
 .hidden {
     visibility: hidden;
+    transition-property: visibility;
+    transition-timeing-function: ease-in-out;
+    transition-duration: 0.25s;
+    opacity: 0;
+    transition: opacity 0.25s;
 }
