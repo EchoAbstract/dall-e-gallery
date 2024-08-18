@@ -15,7 +15,12 @@ function Image(props) {
     <>
       <div className="image" onClick={onClick}>
         <p>{description}</p>
-        <img className="image-img" src={thumbnail} alt={description}></img>
+        <img
+          className="image-img"
+          loading="lazy"
+          src={thumbnail}
+          alt={description}
+        ></img>
       </div>
     </>
   );

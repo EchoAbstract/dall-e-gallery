@@ -37,6 +37,11 @@
     height: max-content;
 }
 
+.loading {
+    height: 1024px;
+    width: 1024px;
+}
+
 .image-overlay-img {
     animation-name: zoomIn;
     animation-duration: 0.5s;

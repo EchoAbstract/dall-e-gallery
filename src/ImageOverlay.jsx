@@ -37,6 +37,14 @@ function ImageOverlay(props) {
 
   console.log(shouldShow(fadeState), classes);
 
+  const img = new Image();
+  img.onload = () => {
+    const domImage = document.getElementById("image-overlay-img");
+    domImage.src = file;
+    domImage.classList.remove("loading");
+  };
+  img.src = file;
+
   return (
     <>
       {shouldShow(fadeState) && image && (
@@ -49,7 +57,12 @@ function ImageOverlay(props) {
           <h2>
             <span className="prompt">Prompt:</span> {description}
           </h2>
-          <img className="image-overlay-img" src={file} alt={description}></img>
+          <img
+            id="image-overlay-img"
+            className="image-overlay-img loading"
+            src="./images/loading.svg"
+            alt={description}
+          ></img>
         </div>
       )}
     </>
