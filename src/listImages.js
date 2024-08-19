@@ -6,6 +6,11 @@ file: "./images/3d render of a programmer fighting a bug.png",
 thumbnail: "./images/thumbnails/3d render of a programmer fighting a bug.png",
 },
 {
+description: "A chair made out of Nokia 3310 phones",
+file: "./images/A chair made out of Nokia 3310 phones.png",
+thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
+},
+{
 description: "A raccoon in an office throwing chairs",
 file: "./images/A raccoon in an office throwing chairs.png",
 thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
@@ -159,6 +164,11 @@ thumbnail: "./images/thumbnails/pixel art image of tokyo.png",
 description: "pixelart image of software construction",
 file: "./images/pixelart image of software construction.png",
 thumbnail: "./images/thumbnails/pixelart image of software construction.png",
+},
+{
+description: "pngout",
+file: "./images/pngout.png",
+thumbnail: "./images/thumbnails/pngout.png",
 },
 {
 description: "presidential debate styled like a street fighter game",
