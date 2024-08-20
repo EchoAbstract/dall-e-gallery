@@ -31,6 +31,11 @@ file: "./images/A suit of samurai armor made out of Nokia 3310 phones.png",
 thumbnail: "./images/thumbnails/A suit of samurai armor made out of Nokia 3310 phones.png",
 },
 {
+description: "A zoom meeting between raccoons",
+file: "./images/A zoom meeting between raccoons.png",
+thumbnail: "./images/thumbnails/A zoom meeting between raccoons.png",
+},
+{
 description: "Abstract Echos at a Dance Club",
 file: "./images/Abstract Echos at a Dance Club.png",
 thumbnail: "./images/thumbnails/Abstract Echos at a Dance Club.png",
@@ -116,6 +121,11 @@ file: "./images/Throwing Chairs.png",
 thumbnail: "./images/thumbnails/Throwing Chairs.png",
 },
 {
+description: "Website 404 page with raccoons and chairs",
+file: "./images/Website 404 page with raccoons and chairs.png",
+thumbnail: "./images/thumbnails/Website 404 page with raccoons and chairs.png",
+},
+{
 description: "Whales in Wales",
 file: "./images/Whales in Wales.png",
 thumbnail: "./images/thumbnails/Whales in Wales.png",
@@ -171,6 +181,11 @@ file: "./images/photorealistic image of hacker collective hacking the planet.png
 thumbnail: "./images/thumbnails/photorealistic image of hacker collective hacking the planet.png",
 },
 {
+description: "pixel art image of a college party",
+file: "./images/pixel art image of a college party.png",
+thumbnail: "./images/thumbnails/pixel art image of a college party.png",
+},
+{
 description: "pixel art image of tokyo",
 file: "./images/pixel art image of tokyo.png",
 thumbnail: "./images/thumbnails/pixel art image of tokyo.png",
@@ -204,6 +219,16 @@ thumbnail: "./images/thumbnails/raccoon fighting a chair.png",
 description: "raccoons at a rave",
 file: "./images/raccoons at a rave.png",
 thumbnail: "./images/thumbnails/raccoons at a rave.png",
+},
+{
+description: "raccoons driving a cyber truck",
+file: "./images/raccoons driving a cyber truck.png",
+thumbnail: "./images/thumbnails/raccoons driving a cyber truck.png",
+},
+{
+description: "raccoons riding around in a dumpster",
+file: "./images/raccoons riding around in a dumpster.png",
+thumbnail: "./images/thumbnails/raccoons riding around in a dumpster.png",
 },
 {
 description: "software engineers at work",
