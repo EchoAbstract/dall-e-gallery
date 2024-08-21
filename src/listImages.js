@@ -231,6 +231,11 @@ file: "./images/raccoons riding around in a dumpster.png",
 thumbnail: "./images/thumbnails/raccoons riding around in a dumpster.png",
 },
 {
+description: "raccoons working in a coworking space",
+file: "./images/raccoons working in a coworking space.png",
+thumbnail: "./images/thumbnails/raccoons working in a coworking space.png",
+},
+{
 description: "software engineers at work",
 file: "./images/software engineers at work.png",
 thumbnail: "./images/thumbnails/software engineers at work.png",
@@ -244,6 +249,11 @@ thumbnail: "./images/thumbnails/spinning up a new EC2 instance.png",
 description: "sporting event in a dieselpunk style",
 file: "./images/sporting event in a dieselpunk style.png",
 thumbnail: "./images/thumbnails/sporting event in a dieselpunk style.png",
+},
+{
+description: "studio ghibli style software engineers at work",
+file: "./images/studio ghibli style software engineers at work.png",
+thumbnail: "./images/thumbnails/studio ghibli style software engineers at work.png",
 },
 {
 description: "taekwondo sparring in anime style",
