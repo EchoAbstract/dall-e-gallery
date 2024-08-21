@@ -66,6 +66,11 @@ file: "./images/Dall-E drawing an image of chairs.png",
 thumbnail: "./images/thumbnails/Dall-E drawing an image of chairs.png",
 },
 {
+description: "Do androids dream of electronic sheep",
+file: "./images/Do androids dream of electronic sheep.png",
+thumbnail: "./images/thumbnails/Do androids dream of electronic sheep.png",
+},
+{
 description: "Dragon Drop (1)",
 file: "./images/Dragon Drop (1).png",
 thumbnail: "./images/thumbnails/Dragon Drop (1).png",
@@ -164,6 +169,11 @@ thumbnail: "./images/thumbnails/album cover for my new vaporwave album.png",
 description: "architect-playing-jenga",
 file: "./images/architect-playing-jenga.png",
 thumbnail: "./images/thumbnails/architect-playing-jenga.png",
+},
+{
+description: "break dancers in the style of a video game",
+file: "./images/break dancers in the style of a video game.png",
+thumbnail: "./images/thumbnails/break dancers in the style of a video game.png",
 },
 {
 description: "draw an AI robot being controlled by a raccoon",
