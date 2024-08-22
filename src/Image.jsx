@@ -2,13 +2,16 @@ import PropTypes from "prop-types";
 
 import "./Image.css";
 
+import { route } from "./routing.js";
+
 function Image(props) {
-  const { file, description, thumbnail, imageClickTrigger, imageSetter } =
+  const { file, description, thumbnail, hash, imageClickTrigger, imageSetter } =
     props;
 
   const onClick = () => {
     imageClickTrigger();
     imageSetter({ file, description });
+    route(hash);
   };
 
   return (
@@ -29,6 +32,7 @@ function Image(props) {
 Image.propTypes = {
   file: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
+  hash: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageClickTrigger: PropTypes.func.isRequired,
   imageSetter: PropTypes.func.isRequired,

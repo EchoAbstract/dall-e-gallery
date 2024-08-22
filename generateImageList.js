@@ -1,6 +1,7 @@
-import { open, readdir, access, constants } from "node:fs/promises";
+import { open, readdir, access, constants, stat } from "node:fs/promises";
 import { basename } from "node:path";
 import { exec } from "node:child_process";
+import { createHash } from "node:crypto";
 
 async function exists(file) {
   try {
@@ -11,23 +12,47 @@ async function exists(file) {
   }
 }
 
-try {
-  const outFile = await open("./src/listImages.js", "w");
-  outFile.write("export default function listImages() {\n");
-  outFile.write("return [\n");
+async function computeHash(file) {
+  return new Promise(async (resolve, reject) => {
+    const fd = await open(file);
+    const stream = fd.createReadStream();
+    const hash = createHash('sha256');
+    stream.on('error', reject);
+    stream.on('data', chunk => hash.update(chunk));
+    stream.on('end', () => resolve(hash.digest('hex')));
+  });
+}
 
-  const files = await readdir("./public/images");
+function writeOutputHeader(outFile) {
+  outFile.write("export default function listImages() {\n");
+  outFile.write("\treturn [\n");
+}
+
+function writeOutputFooter(outFile) {
+  outFile.write("\t];\n}\n");
+}
+
+async function processFiles(files, outFile) {
   for (const file of files) {
     if (!file.endsWith(".png")) continue;
+
+    const filePath = `./public/images/${file}`;
+    const thumbPath = `./public/images/thumbnails/${file}`;
+    const fileUrl = `./images/${file}`;
+    const thumbUrl = `./images/thumbnails/${file}`;
+
+    const stats = await stat(filePath);
+    const sha = await computeHash(filePath);
+
+    console.log(file, sha, (new Date(stats.ctime)).toGMTString());
+    //
     // Make thumbnail
     try {
-      const thumbnailExists = await exists(
-        `./public/images/thumbnails/${file}`,
-      );
+      const thumbnailExists = await exists(thumbPath);
       if (!thumbnailExists) {
         console.log(`Making thumbnail for ${file}`);
         await exec(
-          `magick "./public/images/${file}" -resize 256x256 "./public/images/thumbnails/${file}"`,
+          `magick "${filePath}" -resize 256x256 "${thumbPath}"`,
         );
       }
     } catch (err) {
@@ -36,11 +61,23 @@ try {
     const rootName = basename(file, ".png");
     await outFile.write(`{\n`);
     await outFile.write(`description: "${rootName}",\n`);
-    await outFile.write(`file: "./images/${file}",\n`);
-    await outFile.write(`thumbnail: "./images/thumbnails/${file}",\n`);
+    await outFile.write(`file: "${fileUrl}",\n`);
+    await outFile.write(`thumbnail: "${thumbUrl}",\n`);
+    await outFile.write(`hash: "${sha}",\n`);
     await outFile.write(`},\n`);
   }
-  outFile.write("];\n}\n");
+}
+
+
+try {
+  const outFile = await open("./src/listImages.js", "w");
+
+  writeOutputHeader(outFile);
+
+  const files = await readdir("./public/images");
+  await processFiles(files, outFile);
+
+  writeOutputFooter(outFile);
   outFile.close();
 } catch (err) {
   console.error(err);

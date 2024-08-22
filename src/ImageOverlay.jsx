@@ -3,6 +3,8 @@ import "./ImageOverlay.css";
 
 import { fadingClassForState, shouldShow } from "./fade";
 
+import { home } from "./routing";
+
 function animationEndHack() {
   document.getElementsByClassName("image-overlay")[0].style.display = "none";
 }
@@ -16,6 +18,7 @@ function ImageOverlay(props) {
 
   const onClick = () => {
     fadeStep();
+    home();
   };
 
   const onAnimationEnd = (event) => {

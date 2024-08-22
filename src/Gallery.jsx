@@ -12,9 +12,10 @@ function Gallery(props) {
   const images = listImages().map((image) => {
     return (
       <Image
-        key={image.file}
+        key={image.hash}
         file={image.file}
         thumbnail={image.thumbnail}
+        hash={image.hash}
         description={image.description}
         imageClickTrigger={imageClickTrigger}
         imageSetter={imageSetter}

@@ -42,16 +42,9 @@ function nextFadeState(currentState) {
   }
 }
 
-function isFadingIn(fadeState) {
-  return fadeState === FADING_STATES.IN;
-}
-
-function isFadingOut(fadeState) {
-  return fadeState === FADING_STATES.OUT;
-}
-
-function useFadeState() {
-  const [fadeState, setFadeState] = useState(FADING_STATES.NONE);
+function useFadeState(shouldStartLoad) {
+  const defaultState = shouldStartLoad?FADING_STATES.IN:FADING_STATES.NONE;
+  const [fadeState, setFadeState] = useState(defaultState);
 
   const fadeStep = () => {
     setFadeState(nextFadeState(fadeState));
