@@ -71,12 +71,21 @@ async function writeListFiles(files) {
 
 // Functions related to the RSS feed
 function rssFileEntry(file) {
-  const { description, hash, date } = file;
-  const link = `https://echoabstract.github.io/dall-e-gallery/${hash}`;
+  const { description, thumbUrl, hash, date } = file;
+
+  const root = "https://echoabstract.github.io/dall-e-gallery";
+  const link = `${root}/${hash}`;
+
+
+  const desc =`
+<![CDATA[<a href="${link}"><img src='${root}/${thumbUrl.slice(2)}' height='256' width='256' border='0' alt='Prompt: ${description}' /></a> <!--<br/><br/>Prompt: ${description} --> <br/><br/><br/>Prompt: ${description}]]>
+
+`;
+
   return `
 <item>
    <title>${description}</title>
-   <description>Prompt: ${description}</description>
+   <description>${desc}</description>
    <pubDate>${date}</pubDate>
    <link>${link}</link>
    <guid isPermaLink="true">${link}</guid>

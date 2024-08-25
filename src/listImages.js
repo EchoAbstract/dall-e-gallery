@@ -10,6 +10,13 @@ export default function listImages() {
   },
 
   {
+    description: "A JIRA board for a sprint building a feature",
+    file: "./images/A JIRA board for a sprint building a feature.png",
+    thumbnail: "./images/thumbnails/A JIRA board for a sprint building a feature.png",
+    hash: "3274b30ea719d3325a9dfc8849c573c760225703757381e50dd920e63c3f35c7",
+  },
+
+  {
     description: "A chair made out of Nokia 3310 phones",
     file: "./images/A chair made out of Nokia 3310 phones.png",
     thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
@@ -17,10 +24,24 @@ export default function listImages() {
   },
 
   {
-    description: "A JIRA board for a sprint building a feature",
-    file: "./images/A JIRA board for a sprint building a feature.png",
-    thumbnail: "./images/thumbnails/A JIRA board for a sprint building a feature.png",
-    hash: "3274b30ea719d3325a9dfc8849c573c760225703757381e50dd920e63c3f35c7",
+    description: "A raccoon in an office throwing chairs",
+    file: "./images/A raccoon in an office throwing chairs.png",
+    thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
+    hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
+  },
+
+  {
+    description: "A suit of armor made out of Nokia 3310 phones",
+    file: "./images/A suit of armor made out of Nokia 3310 phones.png",
+    thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
+    hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
+  },
+
+  {
+    description: "A suit of samurai armor made out of Nokia 3310 phones",
+    file: "./images/A suit of samurai armor made out of Nokia 3310 phones.png",
+    thumbnail: "./images/thumbnails/A suit of samurai armor made out of Nokia 3310 phones.png",
+    hash: "44d2c660fdbffc73278eaef8cd454b509a72901ce326bc91f6f135f3f80f46b0",
   },
 
   {
@@ -42,27 +63,6 @@ export default function listImages() {
     file: "./images/Banner of deep learning and machine learning imagery.png",
     thumbnail: "./images/thumbnails/Banner of deep learning and machine learning imagery.png",
     hash: "c55b93a4955f07eb964bbf2e6c15b31363a9c385778a4460c2d56ce096128a76",
-  },
-
-  {
-    description: "Blue Whales enjoying the Welsh Countryside",
-    file: "./images/Blue Whales enjoying the Welsh Countryside.png",
-    thumbnail: "./images/thumbnails/Blue Whales enjoying the Welsh Countryside.png",
-    hash: "e5fd06b2091a3bb54bfc40298607c9deadff4273595f2948f19b52c73074a861",
-  },
-
-  {
-    description: "Ceci n'est pas une orange",
-    file: "./images/Ceci n'est pas une orange.png",
-    thumbnail: "./images/thumbnails/Ceci n'est pas une orange.png",
-    hash: "ea1083c226f6ceb002facd3b0f133f35fa86b1693c28a3325031e5da535d10ce",
-  },
-
-  {
-    description: "DALL•E painting a picture",
-    file: "./images/DALL•E painting a picture.png",
-    thumbnail: "./images/thumbnails/DALL•E painting a picture.png",
-    hash: "87a574d4aaa19b454eb3c979e51bcd3cf4b363214c418c79c6aabbda86f2fba2",
   },
 
   {
@@ -171,24 +171,24 @@ export default function listImages() {
   },
 
   {
-    description: "A suit of samurai armor made out of Nokia 3310 phones",
-    file: "./images/A suit of samurai armor made out of Nokia 3310 phones.png",
-    thumbnail: "./images/thumbnails/A suit of samurai armor made out of Nokia 3310 phones.png",
-    hash: "44d2c660fdbffc73278eaef8cd454b509a72901ce326bc91f6f135f3f80f46b0",
+    description: "Ceci n'est pas une orange",
+    file: "./images/Ceci n'est pas une orange.png",
+    thumbnail: "./images/thumbnails/Ceci n'est pas une orange.png",
+    hash: "ea1083c226f6ceb002facd3b0f133f35fa86b1693c28a3325031e5da535d10ce",
   },
 
   {
-    description: "A raccoon in an office throwing chairs",
-    file: "./images/A raccoon in an office throwing chairs.png",
-    thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
-    hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
+    description: "Blue Whales enjoying the Welsh Countryside",
+    file: "./images/Blue Whales enjoying the Welsh Countryside.png",
+    thumbnail: "./images/thumbnails/Blue Whales enjoying the Welsh Countryside.png",
+    hash: "e5fd06b2091a3bb54bfc40298607c9deadff4273595f2948f19b52c73074a861",
   },
 
   {
-    description: "A suit of armor made out of Nokia 3310 phones",
-    file: "./images/A suit of armor made out of Nokia 3310 phones.png",
-    thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
-    hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
+    description: "DALL•E painting a picture",
+    file: "./images/DALL•E painting a picture.png",
+    thumbnail: "./images/thumbnails/DALL•E painting a picture.png",
+    hash: "87a574d4aaa19b454eb3c979e51bcd3cf4b363214c418c79c6aabbda86f2fba2",
   },
 
   {
@@ -227,13 +227,6 @@ export default function listImages() {
   },
 
   {
-    description: "Whales walking in Cardiff",
-    file: "./images/Whales walking in Cardiff.png",
-    thumbnail: "./images/thumbnails/Whales walking in Cardiff.png",
-    hash: "db948f795e31106aa6c0b884ef536d8f9bd9eec1ea49af58e1f158e532e69541",
-  },
-
-  {
     description: "draw an AI robot being controlled by a raccoon",
     file: "./images/draw an AI robot being controlled by a raccoon.png",
     thumbnail: "./images/thumbnails/draw an AI robot being controlled by a raccoon.png",
@@ -245,6 +238,13 @@ export default function listImages() {
     file: "./images/draw raccoons writing software in anime style.png",
     thumbnail: "./images/thumbnails/draw raccoons writing software in anime style.png",
     hash: "b481213ff21f064823b577090710a5440ee49915ec78b46e7c2018a38834ba1f",
+  },
+
+  {
+    description: "eat sleep rave repeat",
+    file: "./images/eat sleep rave repeat.png",
+    thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
+    hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
   },
 
   {
@@ -297,10 +297,10 @@ export default function listImages() {
   },
 
   {
-    description: "propaganda poster about not believing propaganda",
-    file: "./images/propaganda poster about not believing propaganda.png",
-    thumbnail: "./images/thumbnails/propaganda poster about not believing propaganda.png",
-    hash: "c403db6c7832a09e71ce43d1de517321bfa5fc2cf798797de664a3bef242e464",
+    description: "a screenshot from a computer in 1996",
+    file: "./images/a screenshot from a computer in 1996.png",
+    thumbnail: "./images/thumbnails/a screenshot from a computer in 1996.png",
+    hash: "996a60e1c28bae9f284f81f2cffea7019ead0a11aed50517092a71423940ab9c",
   },
 
   {
@@ -423,6 +423,13 @@ export default function listImages() {
   },
 
   {
+    description: "Whales walking in Cardiff",
+    file: "./images/Whales walking in Cardiff.png",
+    thumbnail: "./images/thumbnails/Whales walking in Cardiff.png",
+    hash: "db948f795e31106aa6c0b884ef536d8f9bd9eec1ea49af58e1f158e532e69541",
+  },
+
+  {
     description: "vhs still image of a hypercar at night",
     file: "./images/vhs still image of a hypercar at night.png",
     thumbnail: "./images/thumbnails/vhs still image of a hypercar at night.png",
@@ -430,24 +437,17 @@ export default function listImages() {
   },
 
   {
-    description: "a screenshot from a computer in 1996",
-    file: "./images/a screenshot from a computer in 1996.png",
-    thumbnail: "./images/thumbnails/a screenshot from a computer in 1996.png",
-    hash: "996a60e1c28bae9f284f81f2cffea7019ead0a11aed50517092a71423940ab9c",
-  },
-
-  {
-    description: "eat sleep rave repeat",
-    file: "./images/eat sleep rave repeat.png",
-    thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
-    hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
-  },
-
-  {
     description: "a city scene in the style of the Terminator's vision",
     file: "./images/a city scene in the style of the Terminator's vision.png",
     thumbnail: "./images/thumbnails/a city scene in the style of the Terminator's vision.png",
     hash: "4c989482e5ac08b6c572c42f44e37ae430d8ba2d59fd5ea188f1a89da675295f",
+  },
+
+  {
+    description: "propaganda poster about not believing propaganda",
+    file: "./images/propaganda poster about not believing propaganda.png",
+    thumbnail: "./images/thumbnails/propaganda poster about not believing propaganda.png",
+    hash: "c403db6c7832a09e71ce43d1de517321bfa5fc2cf798797de664a3bef242e464",
   },
 
   ];
