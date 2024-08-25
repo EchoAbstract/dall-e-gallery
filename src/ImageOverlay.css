@@ -1,100 +1,100 @@
 .image-overlay {
-    position: fixed;
-    color: white;
-    font-size: 3rem;
-    background-color: rgba(0, 0, 0, 0.685);
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 9998;
-    display: block;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  position: fixed;
+  color: white;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .fade-in {
-    animation-name: fadeIn;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .image-overlay img {
-    border-radius: 25px;
-    border-width: 5px;
-    border-color: rgb(183 47 183);
-    border-style: solid;
-    height: calc(100vh - 256px);
+  border-radius: 25px;
+  border-width: 5px;
+  border-color: rgb(183 47 183);
+  border-style: solid;
+  height: calc(100vh - 256px);
 }
 
 .loading {
-    height: 1024px;
-    width: 1024px;
+  height: 1024px;
+  width: 1024px;
 }
 
 .image-overlay-img {
-    animation-name: zoomIn;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
+  animation-name: zoomIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes zoomIn {
-    from {
-        scale: 0%;
-    }
+  from {
+    scale: 0%;
+  }
 
-    to {
-        scale: 100%;
-    }
+  to {
+    scale: 100%;
+  }
 }
 
 .image-overlay .prompt {
-    background: rgb(255, 0, 0);
-    background: linear-gradient(
-        45deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 158, 0, 1) 15%,
-        rgba(219, 255, 0, 1) 30%,
-        rgba(80, 162, 71, 1) 45%,
-        rgba(64, 70, 182, 1) 60%,
-        rgba(158, 46, 202, 1) 75%,
-        rgba(225, 26, 220, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 158, 0, 1) 15%,
+    rgba(219, 255, 0, 1) 30%,
+    rgba(80, 162, 71, 1) 45%,
+    rgba(64, 70, 182, 1) 60%,
+    rgba(158, 46, 202, 1) 75%,
+    rgba(225, 26, 220, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .image-overlay h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .fade-out {
-    animation-name: fadeOut;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
+  from {
+    opacity: 1;
+  }
 
-    to {
-        opacity: 0;
-    }
+  to {
+    opacity: 0;
+  }
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }

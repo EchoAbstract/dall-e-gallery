@@ -2,7 +2,7 @@
 
 This is just a collection of insane AI generated images that I've
 collected into a repo and made into a cheezy GeoCities style
-gallery.  This is also just reminding me that you don't really
+gallery. This is also just reminding me that you don't really
 need many 3rd party libs in react.
 
 AI generated images are licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

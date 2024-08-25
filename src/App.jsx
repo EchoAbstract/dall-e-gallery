@@ -16,7 +16,6 @@ function makeNotFoundImage() {
   };
 }
 
-
 function getImageFromURL() {
   const hash = getURLHash(window.location);
   let urlMatch = listImages().find((img) => img.hash === hash);

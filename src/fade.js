@@ -43,7 +43,7 @@ function nextFadeState(currentState) {
 }
 
 function useFadeState(shouldStartLoad) {
-  const defaultState = shouldStartLoad?FADING_STATES.IN:FADING_STATES.NONE;
+  const defaultState = shouldStartLoad ? FADING_STATES.IN : FADING_STATES.NONE;
   const [fadeState, setFadeState] = useState(defaultState);
 
   const fadeStep = () => {

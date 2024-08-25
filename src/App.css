@@ -1,46 +1,46 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    z-index: 1;
-    font-family: "Michroma", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .heading {
-    color: white;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.685);
-    border-radius: 20px;
-    opacity: 1;
-    transition: opacity 0.25s;
+  color: white;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.685);
+  border-radius: 20px;
+  opacity: 1;
+  transition: opacity 0.25s;
 }
 
 .rainbow {
-    /* background: linear-gradient(in hsl longer hue 45deg, red 0 0); */
-    background: rgb(255, 0, 0);
-    background: linear-gradient(
-        45deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 158, 0, 1) 15%,
-        rgba(219, 255, 0, 1) 30%,
-        rgba(80, 162, 71, 1) 45%,
-        rgba(64, 70, 182, 1) 60%,
-        rgba(158, 46, 202, 1) 75%,
-        rgba(225, 26, 220, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(in hsl longer hue 45deg, red 0 0); */
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 158, 0, 1) 15%,
+    rgba(219, 255, 0, 1) 30%,
+    rgba(80, 162, 71, 1) 45%,
+    rgba(64, 70, 182, 1) 60%,
+    rgba(158, 46, 202, 1) 75%,
+    rgba(225, 26, 220, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hidden {
-    visibility: hidden;
-    transition-property: visibility;
-    transition-timeing-function: ease-in-out;
-    transition-duration: 0.25s;
-    opacity: 0;
-    transition: opacity 0.25s;
+  visibility: hidden;
+  transition-property: visibility;
+  transition-timeing-function: ease-in-out;
+  transition-duration: 0.25s;
+  opacity: 0;
+  transition: opacity 0.25s;
 }

@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-images": "node generateImageList.js"
+    "generate-images": "node generateImageList.js",
+    "format": "prettier . --write",
+    "format-ci": "prettier . --check"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -24,6 +26,7 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "prettier": "3.3.3",
     "vite": "^5.4.0"
   }
 }
