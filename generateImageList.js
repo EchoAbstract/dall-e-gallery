@@ -3,6 +3,7 @@ import { basename } from "node:path";
 import { exec } from "node:child_process";
 import { createHash } from "node:crypto";
 
+// Utilities
 async function exists(file) {
   try {
     await access(file, constants.F_OK);
@@ -23,62 +24,137 @@ async function computeHash(file) {
   });
 }
 
-function writeOutputHeader(outFile) {
-  outFile.write("export default function listImages() {\n");
-  outFile.write("\treturn [\n");
+
+// Functions related to the listImages.js file generation
+function header() {
+  return `
+export default function listImages() {
+  return [
+`;
 }
 
-function writeOutputFooter(outFile) {
-  outFile.write("\t];\n}\n");
+function footer() {
+  return `
+  ];
+}
+`;
 }
 
-async function processFiles(files, outFile) {
-  for (const file of files) {
-    if (!file.endsWith(".png")) continue;
+function fileEntry(file) {
+  const { description, fileUrl, thumbUrl, hash } = file;
+  return `
+  {
+    description: "${description}",
+    file: "${fileUrl}",
+    thumbnail: "${thumbUrl}",
+    hash: "${hash}",
+  },
+`;
+}
 
-    const filePath = `./public/images/${file}`;
-    const thumbPath = `./public/images/thumbnails/${file}`;
-    const fileUrl = `./images/${file}`;
-    const thumbUrl = `./images/thumbnails/${file}`;
+async function writeOutputHeader(outFile) {
+  return outFile.write(header());
+}
 
-    const stats = await stat(filePath);
-    const sha = await computeHash(filePath);
+async function writeOutputFooter(outFile) {
+  return outFile.write(footer());
+}
 
-    console.log(file, sha, (new Date(stats.ctime)).toGMTString());
-    //
-    // Make thumbnail
+async function writeListFiles(files) {
+  const outFile = await open("./src/listImages.js", "w");
+  writeOutputHeader(outFile);
+  await Promise.all(files.map(async f => outFile.write(fileEntry(f))));
+  writeOutputFooter(outFile);
+  outFile.close();
+}
+
+
+// Functions related to the RSS feed
+function rssFileEntry(file) {
+  const { description, hash, date } = file;
+  const link = `https://echoabstract.github.io/dall-e-gallery/${hash}`;
+  return `
+<item>
+   <title>${description}</title>
+   <description>Prompt: ${description}</description>
+   <pubDate>${date}</pubDate>
+   <link>${link}</link>
+   <guid isPermaLink="true">${link}</guid>
+</item>
+`;
+}
+
+function generateRssEntries(files) {
+  return files.reduce((acc, currentFile) => {
+    const ent = rssFileEntry(currentFile);
+    return acc + ent;
+  }, '');
+}
+
+async function generateRssFeed(files) {
+  const feed =`<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <channel>
+  <title>DALL•E Gallery</title>
+  <description>Brian's silly AI generated image gallery.</description>
+  <link>https://echoabstract.github.io/dall-e-gallery/</link>
+  <atom:link href="https://echoabstract.github.io/dall-e-gallery/rss.xml" rel="self" type="application/rss+xml" />
+  ${generateRssEntries(files)}
+ </channel>
+</rss>
+`;
+
+  const outFile = await open("./public/rss.xml", "w");
+  await outFile.write(feed);
+  await outFile.close();
+}
+
+// Thumbnail Generation
+async function generateThumbnails(files) {
+  await Promise.all(files.map(async (f) => {
     try {
-      const thumbnailExists = await exists(thumbPath);
+      const thumbnailExists = await exists(f.thumbPath);
       if (!thumbnailExists) {
-        console.log(`Making thumbnail for ${file}`);
+        console.log(`Making thumbnail for ${f.name}`);
         await exec(
-          `magick "${filePath}" -resize 256x256 "${thumbPath}"`,
+          `magick "${f.filePath}" -resize 256x256 "${f.thumbPath}"`,
         );
       }
     } catch (err) {
       console.error(err);
     }
-    const rootName = basename(file, ".png");
-    await outFile.write(`{\n`);
-    await outFile.write(`description: "${rootName}",\n`);
-    await outFile.write(`file: "${fileUrl}",\n`);
-    await outFile.write(`thumbnail: "${thumbUrl}",\n`);
-    await outFile.write(`hash: "${sha}",\n`);
-    await outFile.write(`},\n`);
-  }
+  }));
 }
 
+// File munging
+async function computeFileEntries(files) {
+  const entries = await Promise.all(files.filter(f => f.endsWith(".png")).map(async (f) => {
+    const filePath = `./public/images/${f}`;
+    const stats = await stat(filePath);
+    return {
+      name: f,
+      filePath,
+      thumbPath: `./public/images/thumbnails/${f}`,
+      fileUrl: `./images/${f}`,
+      thumbUrl: `./images/thumbnails/${f}`,
+      description: basename(f, ".png"),
+      date: (new Date(stats.ctime)).toGMTString(),
+      hash: await computeHash(filePath),
+    };
+  }));
+
+  return entries;
+}
 
 try {
-  const outFile = await open("./src/listImages.js", "w");
-
-  writeOutputHeader(outFile);
-
   const files = await readdir("./public/images");
-  await processFiles(files, outFile);
+  const fileEntries = await computeFileEntries(files);
 
-  writeOutputFooter(outFile);
-  outFile.close();
+  await writeListFiles(fileEntries);
+  await generateThumbnails(fileEntries);
+  await generateRssFeed(fileEntries);
+
+
 } catch (err) {
   console.error(err);
 }
