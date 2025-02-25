@@ -10,24 +10,17 @@ export default function listImages() {
     },
 
     {
+      description: "A JIRA board for a sprint building a feature",
+      file: "./images/A JIRA board for a sprint building a feature.png",
+      thumbnail: "./images/thumbnails/A JIRA board for a sprint building a feature.png",
+      hash: "3274b30ea719d3325a9dfc8849c573c760225703757381e50dd920e63c3f35c7",
+    },
+
+    {
       description: "A group of friends hanging out in France drinking wine",
       file: "./images/A group of friends hanging out in France drinking wine.png",
       thumbnail: "./images/thumbnails/A group of friends hanging out in France drinking wine.png",
       hash: "c6dee70033844451844c462913e13202200b637dadeb92b9aaf5806ac251ad72",
-    },
-
-    {
-      description: "A raccoon in an office throwing chairs",
-      file: "./images/A raccoon in an office throwing chairs.png",
-      thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
-      hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
-    },
-
-    {
-      description: "A suit of armor made out of Nokia 3310 phones",
-      file: "./images/A suit of armor made out of Nokia 3310 phones.png",
-      thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
-      hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
     },
 
     {
@@ -42,6 +35,13 @@ export default function listImages() {
       file: "./images/A team of engineers optimizing all the things.png",
       thumbnail: "./images/thumbnails/A team of engineers optimizing all the things.png",
       hash: "073e8febbf7edf8bd6b76b00f9b1044b78a4dbd512c061b991b02ba2ac1414cb",
+    },
+
+    {
+      description: "A raccoon in an office throwing chairs",
+      file: "./images/A raccoon in an office throwing chairs.png",
+      thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
+      hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
     },
 
     {
@@ -150,10 +150,10 @@ export default function listImages() {
     },
 
     {
-      description: "A zoom meeting between raccoons",
-      file: "./images/A zoom meeting between raccoons.png",
-      thumbnail: "./images/thumbnails/A zoom meeting between raccoons.png",
-      hash: "a1421d9d00bf077a8e707c6859f76ae11fdd14ee89b9536e0ca8115dc252f7a9",
+      description: "Google Meat",
+      file: "./images/Google Meat.png",
+      thumbnail: "./images/thumbnails/Google Meat.png",
+      hash: "edf410b7fe09c2b6c254489d1b71e5525ee41dcd6366493a10c54575ad78f7b3",
     },
 
     {
@@ -164,20 +164,6 @@ export default function listImages() {
     },
 
     {
-      description: "A chair made out of Nokia 3310 phones",
-      file: "./images/A chair made out of Nokia 3310 phones.png",
-      thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
-      hash: "a0ba690463fd7bb03f716a030f531384cf7ca3b916337867eca72962a9a1d678",
-    },
-
-    {
-      description: "A JIRA board for a sprint building a feature",
-      file: "./images/A JIRA board for a sprint building a feature.png",
-      thumbnail: "./images/thumbnails/A JIRA board for a sprint building a feature.png",
-      hash: "3274b30ea719d3325a9dfc8849c573c760225703757381e50dd920e63c3f35c7",
-    },
-
-    {
       description: "OpenAI can be really slow",
       file: "./images/OpenAI can be really slow.png",
       thumbnail: "./images/thumbnails/OpenAI can be really slow.png",
@@ -185,10 +171,24 @@ export default function listImages() {
     },
 
     {
-      description: "Google Meat",
-      file: "./images/Google Meat.png",
-      thumbnail: "./images/thumbnails/Google Meat.png",
-      hash: "edf410b7fe09c2b6c254489d1b71e5525ee41dcd6366493a10c54575ad78f7b3",
+      description: "A chair made out of Nokia 3310 phones",
+      file: "./images/A chair made out of Nokia 3310 phones.png",
+      thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
+      hash: "a0ba690463fd7bb03f716a030f531384cf7ca3b916337867eca72962a9a1d678",
+    },
+
+    {
+      description: "A zoom meeting between raccoons",
+      file: "./images/A zoom meeting between raccoons.png",
+      thumbnail: "./images/thumbnails/A zoom meeting between raccoons.png",
+      hash: "a1421d9d00bf077a8e707c6859f76ae11fdd14ee89b9536e0ca8115dc252f7a9",
+    },
+
+    {
+      description: "A suit of armor made out of Nokia 3310 phones",
+      file: "./images/A suit of armor made out of Nokia 3310 phones.png",
+      thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
+      hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
     },
 
     {
@@ -206,10 +206,17 @@ export default function listImages() {
     },
 
     {
-      description: "They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all ",
-      file: "./images/They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all .png",
-      thumbnail: "./images/thumbnails/They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all .png",
-      hash: "19727dfb1f1a9096a6877295bc52b0cf5611d9c3a7c2a8bac5c15f2c26631de6",
+      description: "That's no moon, it's a space station",
+      file: "./images/That's no moon, it's a space station.png",
+      thumbnail: "./images/thumbnails/That's no moon, it's a space station.png",
+      hash: "3d95f5c296ab66dcab335550267f9b47593ff3f671103ac302a2afc780a52bf3",
+    },
+
+    {
+      description: "Raccoons howling at the moon",
+      file: "./images/Raccoons howling at the moon.png",
+      thumbnail: "./images/thumbnails/Raccoons howling at the moon.png",
+      hash: "a1c011735f2aabde556090e9e0646711832664906c8a4c319ebab0e6859624be",
     },
 
     {
@@ -234,17 +241,17 @@ export default function listImages() {
     },
 
     {
-      description: "Whales in Wales",
-      file: "./images/Whales in Wales.png",
-      thumbnail: "./images/thumbnails/Whales in Wales.png",
-      hash: "b45b021d964b2ded63df849c5687e53c4b536051118c6a13c101bfa34d1a1e38",
+      description: "Ships from the age of sail in space",
+      file: "./images/Ships from the age of sail in space.png",
+      thumbnail: "./images/thumbnails/Ships from the age of sail in space.png",
+      hash: "36ed218cbe45b5aeed8e6866bbe6835c7fc29c061c4862a034068eccc5faf33a",
     },
 
     {
-      description: "That's no moon, it's a space station",
-      file: "./images/That's no moon, it's a space station.png",
-      thumbnail: "./images/thumbnails/That's no moon, it's a space station.png",
-      hash: "3d95f5c296ab66dcab335550267f9b47593ff3f671103ac302a2afc780a52bf3",
+      description: "Whales playing music at a rock festival in a disney style cartoon",
+      file: "./images/Whales playing music at a rock festival in a disney style cartoon.png",
+      thumbnail: "./images/thumbnails/Whales playing music at a rock festival in a disney style cartoon.png",
+      hash: "22f896c2fc0fcd1b48133f31f325472059f2cd6446c60a22d44420d2fe09cf27",
     },
 
     {
@@ -262,10 +269,10 @@ export default function listImages() {
     },
 
     {
-      description: "Whales playing music at a rock festival in a disney style cartoon",
-      file: "./images/Whales playing music at a rock festival in a disney style cartoon.png",
-      thumbnail: "./images/thumbnails/Whales playing music at a rock festival in a disney style cartoon.png",
-      hash: "22f896c2fc0fcd1b48133f31f325472059f2cd6446c60a22d44420d2fe09cf27",
+      description: "a screenshot from a computer in 1996",
+      file: "./images/a screenshot from a computer in 1996.png",
+      thumbnail: "./images/thumbnails/a screenshot from a computer in 1996.png",
+      hash: "996a60e1c28bae9f284f81f2cffea7019ead0a11aed50517092a71423940ab9c",
     },
 
     {
@@ -311,10 +318,10 @@ export default function listImages() {
     },
 
     {
-      description: "eat sleep rave repeat",
-      file: "./images/eat sleep rave repeat.png",
-      thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
-      hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
+      description: "They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all ",
+      file: "./images/They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all .png",
+      thumbnail: "./images/thumbnails/They went on forever – They - When I w- We lived in Arizona, and the skies always had little fluffy clouds in 'em, and, uh... they were long... and clear and... there were lots of stars at night. And, uh, when it would rain, it would all .png",
+      hash: "19727dfb1f1a9096a6877295bc52b0cf5611d9c3a7c2a8bac5c15f2c26631de6",
     },
 
     {
@@ -367,17 +374,10 @@ export default function listImages() {
     },
 
     {
-      description: "presidential debate styled like a street fighter game",
-      file: "./images/presidential debate styled like a street fighter game.png",
-      thumbnail: "./images/thumbnails/presidential debate styled like a street fighter game.png",
-      hash: "b21676aca58d6dd57d2d6fd99bf74d42b19d9ab83b638cd870fe1f7a1c61c8e6",
-    },
-
-    {
-      description: "Raccoons howling at the moon",
-      file: "./images/Raccoons howling at the moon.png",
-      thumbnail: "./images/thumbnails/Raccoons howling at the moon.png",
-      hash: "a1c011735f2aabde556090e9e0646711832664906c8a4c319ebab0e6859624be",
+      description: "Selfie of Brian Wilson",
+      file: "./images/Selfie of Brian Wilson.png",
+      thumbnail: "./images/thumbnails/Selfie of Brian Wilson.png",
+      hash: "8a00a9c4b191b653249a2d3e978d69e19a0f2412bbec9f07f76fec13cb382c96",
     },
 
     {
@@ -388,24 +388,24 @@ export default function listImages() {
     },
 
     {
-      description: "Ships from the age of sail in space",
-      file: "./images/Ships from the age of sail in space.png",
-      thumbnail: "./images/thumbnails/Ships from the age of sail in space.png",
-      hash: "36ed218cbe45b5aeed8e6866bbe6835c7fc29c061c4862a034068eccc5faf33a",
+      description: "Whales in Wales",
+      file: "./images/Whales in Wales.png",
+      thumbnail: "./images/thumbnails/Whales in Wales.png",
+      hash: "b45b021d964b2ded63df849c5687e53c4b536051118c6a13c101bfa34d1a1e38",
     },
 
     {
-      description: "a screenshot from a computer in 1996",
-      file: "./images/a screenshot from a computer in 1996.png",
-      thumbnail: "./images/thumbnails/a screenshot from a computer in 1996.png",
-      hash: "996a60e1c28bae9f284f81f2cffea7019ead0a11aed50517092a71423940ab9c",
+      description: "presidential debate styled like a street fighter game",
+      file: "./images/presidential debate styled like a street fighter game.png",
+      thumbnail: "./images/thumbnails/presidential debate styled like a street fighter game.png",
+      hash: "b21676aca58d6dd57d2d6fd99bf74d42b19d9ab83b638cd870fe1f7a1c61c8e6",
     },
 
     {
-      description: "propaganda poster about safe computing",
-      file: "./images/propaganda poster about safe computing.png",
-      thumbnail: "./images/thumbnails/propaganda poster about safe computing.png",
-      hash: "fdf0596ba24ea5556f7d75856b1225051046f9ec7cf011de9764873b6e37af23",
+      description: "eat sleep rave repeat",
+      file: "./images/eat sleep rave repeat.png",
+      thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
+      hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
     },
 
     {
@@ -416,10 +416,17 @@ export default function listImages() {
     },
 
     {
-      description: "raccoons driving a cyber truck",
-      file: "./images/raccoons driving a cyber truck.png",
-      thumbnail: "./images/thumbnails/raccoons driving a cyber truck.png",
-      hash: "53ba5cc6f69695ceca8346172d7deed37be9af5b2888e9bc81e217d62d6883e8",
+      description: "raccoons riding around in a dumpster",
+      file: "./images/raccoons riding around in a dumpster.png",
+      thumbnail: "./images/thumbnails/raccoons riding around in a dumpster.png",
+      hash: "615ea6cd12c333d8a0e9d144220ea5666ffd23f3d6a6f0020741bbbbbb2772dc",
+    },
+
+    {
+      description: "raccoons working in a coworking space",
+      file: "./images/raccoons working in a coworking space.png",
+      thumbnail: "./images/thumbnails/raccoons working in a coworking space.png",
+      hash: "39e08ba2e0b398c2fd8a4b868e4923fd967f7a4f5541b92fef35ff3b0614a2f9",
     },
 
     {
@@ -451,10 +458,10 @@ export default function listImages() {
     },
 
     {
-      description: "raccoons riding around in a dumpster",
-      file: "./images/raccoons riding around in a dumpster.png",
-      thumbnail: "./images/thumbnails/raccoons riding around in a dumpster.png",
-      hash: "615ea6cd12c333d8a0e9d144220ea5666ffd23f3d6a6f0020741bbbbbb2772dc",
+      description: "propaganda poster about safe computing",
+      file: "./images/propaganda poster about safe computing.png",
+      thumbnail: "./images/thumbnails/propaganda poster about safe computing.png",
+      hash: "fdf0596ba24ea5556f7d75856b1225051046f9ec7cf011de9764873b6e37af23",
     },
 
     {
@@ -465,17 +472,17 @@ export default function listImages() {
     },
 
     {
-      description: "the owls are not what they seem",
-      file: "./images/the owls are not what they seem.png",
-      thumbnail: "./images/thumbnails/the owls are not what they seem.png",
-      hash: "45abc34c4116ff0d4468c895355b5704a069bf14599175d76671c7565d11f2c1",
+      description: "raccoons driving a cyber truck",
+      file: "./images/raccoons driving a cyber truck.png",
+      thumbnail: "./images/thumbnails/raccoons driving a cyber truck.png",
+      hash: "53ba5cc6f69695ceca8346172d7deed37be9af5b2888e9bc81e217d62d6883e8",
     },
 
     {
-      description: "the treachery of ai generated images",
-      file: "./images/the treachery of ai generated images.png",
-      thumbnail: "./images/thumbnails/the treachery of ai generated images.png",
-      hash: "9f2c18ff92042b92c10e79212550c32fe9bba3f0239c50cfb9e873c6fc629d12",
+      description: "raccoons at a rave",
+      file: "./images/raccoons at a rave.png",
+      thumbnail: "./images/thumbnails/raccoons at a rave.png",
+      hash: "c4e9a4caf389d9a9f37f2753c455598a5aaa853d42c0b15520dd469963e5ad04",
     },
 
     {
@@ -521,10 +528,10 @@ export default function listImages() {
     },
 
     {
-      description: "raccoons working in a coworking space",
-      file: "./images/raccoons working in a coworking space.png",
-      thumbnail: "./images/thumbnails/raccoons working in a coworking space.png",
-      hash: "39e08ba2e0b398c2fd8a4b868e4923fd967f7a4f5541b92fef35ff3b0614a2f9",
+      description: "the treachery of ai generated images",
+      file: "./images/the treachery of ai generated images.png",
+      thumbnail: "./images/thumbnails/the treachery of ai generated images.png",
+      hash: "9f2c18ff92042b92c10e79212550c32fe9bba3f0239c50cfb9e873c6fc629d12",
     },
 
     {
@@ -535,10 +542,10 @@ export default function listImages() {
     },
 
     {
-      description: "raccoons at a rave",
-      file: "./images/raccoons at a rave.png",
-      thumbnail: "./images/thumbnails/raccoons at a rave.png",
-      hash: "c4e9a4caf389d9a9f37f2753c455598a5aaa853d42c0b15520dd469963e5ad04",
+      description: "the owls are not what they seem",
+      file: "./images/the owls are not what they seem.png",
+      thumbnail: "./images/thumbnails/the owls are not what they seem.png",
+      hash: "45abc34c4116ff0d4468c895355b5704a069bf14599175d76671c7565d11f2c1",
     },
 
   ];
