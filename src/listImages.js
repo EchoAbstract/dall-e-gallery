@@ -17,10 +17,10 @@ export default function listImages() {
     },
 
     {
-      description: "A chair made out of Nokia 3310 phones",
-      file: "./images/A chair made out of Nokia 3310 phones.png",
-      thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
-      hash: "a0ba690463fd7bb03f716a030f531384cf7ca3b916337867eca72962a9a1d678",
+      description: "A group of friends hanging out in France drinking wine",
+      file: "./images/A group of friends hanging out in France drinking wine.png",
+      thumbnail: "./images/thumbnails/A group of friends hanging out in France drinking wine.png",
+      hash: "c6dee70033844451844c462913e13202200b637dadeb92b9aaf5806ac251ad72",
     },
 
     {
@@ -31,10 +31,38 @@ export default function listImages() {
     },
 
     {
-      description: "A suit of samurai armor made out of Nokia 3310 phones",
-      file: "./images/A suit of samurai armor made out of Nokia 3310 phones.png",
-      thumbnail: "./images/thumbnails/A suit of samurai armor made out of Nokia 3310 phones.png",
-      hash: "44d2c660fdbffc73278eaef8cd454b509a72901ce326bc91f6f135f3f80f46b0",
+      description: "A photo of the raccoon squad 2_ Taking out the Trash",
+      file: "./images/A photo of the raccoon squad 2_ Taking out the Trash.png",
+      thumbnail: "./images/thumbnails/A photo of the raccoon squad 2_ Taking out the Trash.png",
+      hash: "b6c171d8ce5f8e428e04d91f2c3a2dcf50c001efb066da89bbaf8c6a451f81a2",
+    },
+
+    {
+      description: "A chair made out of Nokia 3310 phones",
+      file: "./images/A chair made out of Nokia 3310 phones.png",
+      thumbnail: "./images/thumbnails/A chair made out of Nokia 3310 phones.png",
+      hash: "a0ba690463fd7bb03f716a030f531384cf7ca3b916337867eca72962a9a1d678",
+    },
+
+    {
+      description: "A raccoon in an office throwing chairs",
+      file: "./images/A raccoon in an office throwing chairs.png",
+      thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
+      hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
+    },
+
+    {
+      description: "A suit of armor made out of Nokia 3310 phones",
+      file: "./images/A suit of armor made out of Nokia 3310 phones.png",
+      thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
+      hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
+    },
+
+    {
+      description: "A photo of the raccoon squad",
+      file: "./images/A photo of the raccoon squad.png",
+      thumbnail: "./images/thumbnails/A photo of the raccoon squad.png",
+      hash: "369424d228540646a610d34fa5c2468c2d0f7becb617f5b4a2ec759d3dd31815",
     },
 
     {
@@ -59,17 +87,10 @@ export default function listImages() {
     },
 
     {
-      description: "Banner of deep learning and machine learning imagery",
-      file: "./images/Banner of deep learning and machine learning imagery.png",
-      thumbnail: "./images/thumbnails/Banner of deep learning and machine learning imagery.png",
-      hash: "c55b93a4955f07eb964bbf2e6c15b31363a9c385778a4460c2d56ce096128a76",
-    },
-
-    {
-      description: "A group of friends hanging out in France drinking wine",
-      file: "./images/A group of friends hanging out in France drinking wine.png",
-      thumbnail: "./images/thumbnails/A group of friends hanging out in France drinking wine.png",
-      hash: "c6dee70033844451844c462913e13202200b637dadeb92b9aaf5806ac251ad72",
+      description: "A photo of the raccoon squad 2_ Taking out the Trash in the style of a movie poster",
+      file: "./images/A photo of the raccoon squad 2_ Taking out the Trash in the style of a movie poster.png",
+      thumbnail: "./images/thumbnails/A photo of the raccoon squad 2_ Taking out the Trash in the style of a movie poster.png",
+      hash: "a2fe3f5658fd07827362a4a3719f7abebd910cc2a89417ed669f99eec097e0ce",
     },
 
     {
@@ -77,13 +98,6 @@ export default function listImages() {
       file: "./images/Blue Whales enjoying the Welsh Countryside.png",
       thumbnail: "./images/thumbnails/Blue Whales enjoying the Welsh Countryside.png",
       hash: "e5fd06b2091a3bb54bfc40298607c9deadff4273595f2948f19b52c73074a861",
-    },
-
-    {
-      description: "A raccoon in an office throwing chairs",
-      file: "./images/A raccoon in an office throwing chairs.png",
-      thumbnail: "./images/thumbnails/A raccoon in an office throwing chairs.png",
-      hash: "8ed0f8aaecedbb001e2677e70df1bee50c795952c19e4c8638cb7b0f8eb5e686",
     },
 
     {
@@ -122,66 +136,10 @@ export default function listImages() {
     },
 
     {
-      description: "A suit of armor made out of Nokia 3310 phones",
-      file: "./images/A suit of armor made out of Nokia 3310 phones.png",
-      thumbnail: "./images/thumbnails/A suit of armor made out of Nokia 3310 phones.png",
-      hash: "981da5b85dc21298113de440b8c8c66bd9060de5932d71f2c824390602cae112",
-    },
-
-    {
-      description: "Dragon Drop",
-      file: "./images/Dragon Drop.png",
-      thumbnail: "./images/thumbnails/Dragon Drop.png",
-      hash: "c1066b9580228bc8b37178b9d1a84f39f768331a63354985070ccf711bc66553",
-    },
-
-    {
-      description: "Florida Man finds bugs in small Massachusetts based startup",
-      file: "./images/Florida Man finds bugs in small Massachusetts based startup.png",
-      thumbnail: "./images/thumbnails/Florida Man finds bugs in small Massachusetts based startup.png",
-      hash: "6677ae6fd5ea4df470796acb62e929883b17787eaf1660cf446070805a3086ea",
-    },
-
-    {
-      description: "Florida man makes friends with gator",
-      file: "./images/Florida man makes friends with gator.png",
-      thumbnail: "./images/thumbnails/Florida man makes friends with gator.png",
-      hash: "0632a074b782a00c6506ad63710e2ed21e5c34be5e24b2ce1751db4aa3dd8a27",
-    },
-
-    {
-      description: "Florida man works as QE for TrustCloud",
-      file: "./images/Florida man works as QE for TrustCloud.png",
-      thumbnail: "./images/thumbnails/Florida man works as QE for TrustCloud.png",
-      hash: "fcf1cb6ad81cb946ef28a6fc885373e24d402c35d5f6a5870af9334943616b4b",
-    },
-
-    {
-      description: "Google Meat",
-      file: "./images/Google Meat.png",
-      thumbnail: "./images/thumbnails/Google Meat.png",
-      hash: "edf410b7fe09c2b6c254489d1b71e5525ee41dcd6366493a10c54575ad78f7b3",
-    },
-
-    {
-      description: "Lying in bed, just like Brian Wilson did",
-      file: "./images/Lying in bed, just like Brian Wilson did.png",
-      thumbnail: "./images/thumbnails/Lying in bed, just like Brian Wilson did.png",
-      hash: "ef3b856587c2e07776e3b0c9f2104ca7e65b940b2af1e82b27d003d93ca8682b",
-    },
-
-    {
       description: "Do androids dream of electronic sheep",
       file: "./images/Do androids dream of electronic sheep.png",
       thumbnail: "./images/thumbnails/Do androids dream of electronic sheep.png",
       hash: "2e6ba2e853f4c58ef854d59d5fc7653ace7891977b01743d1e2df7da403f86ff",
-    },
-
-    {
-      description: "Echo Abstract DJ in Techno Club",
-      file: "./images/Echo Abstract DJ in Techno Club.png",
-      thumbnail: "./images/thumbnails/Echo Abstract DJ in Techno Club.png",
-      hash: "41eb18b299f847c06674725c07e750b00771a4fb7965076a573c909b36a26cc4",
     },
 
     {
@@ -192,6 +150,62 @@ export default function listImages() {
     },
 
     {
+      description: "Dragon Drop",
+      file: "./images/Dragon Drop.png",
+      thumbnail: "./images/thumbnails/Dragon Drop.png",
+      hash: "c1066b9580228bc8b37178b9d1a84f39f768331a63354985070ccf711bc66553",
+    },
+
+    {
+      description: "Echo Abstract DJ in Techno Club",
+      file: "./images/Echo Abstract DJ in Techno Club.png",
+      thumbnail: "./images/thumbnails/Echo Abstract DJ in Techno Club.png",
+      hash: "41eb18b299f847c06674725c07e750b00771a4fb7965076a573c909b36a26cc4",
+    },
+
+    {
+      description: "Florida Man finds bugs in small Massachusetts based startup",
+      file: "./images/Florida Man finds bugs in small Massachusetts based startup.png",
+      thumbnail: "./images/thumbnails/Florida Man finds bugs in small Massachusetts based startup.png",
+      hash: "6677ae6fd5ea4df470796acb62e929883b17787eaf1660cf446070805a3086ea",
+    },
+
+    {
+      description: "A photo of the raccoon squad in the style of a movie poster",
+      file: "./images/A photo of the raccoon squad in the style of a movie poster.png",
+      thumbnail: "./images/thumbnails/A photo of the raccoon squad in the style of a movie poster.png",
+      hash: "d219303cb5f7c323f15e9c69eacce7fe92ccb539f0eb10dd3c01dfceda8b3008",
+    },
+
+    {
+      description: "A suit of samurai armor made out of Nokia 3310 phones",
+      file: "./images/A suit of samurai armor made out of Nokia 3310 phones.png",
+      thumbnail: "./images/thumbnails/A suit of samurai armor made out of Nokia 3310 phones.png",
+      hash: "44d2c660fdbffc73278eaef8cd454b509a72901ce326bc91f6f135f3f80f46b0",
+    },
+
+    {
+      description: "Banner of deep learning and machine learning imagery",
+      file: "./images/Banner of deep learning and machine learning imagery.png",
+      thumbnail: "./images/thumbnails/Banner of deep learning and machine learning imagery.png",
+      hash: "c55b93a4955f07eb964bbf2e6c15b31363a9c385778a4460c2d56ce096128a76",
+    },
+
+    {
+      description: "Florida man makes friends with gator",
+      file: "./images/Florida man makes friends with gator.png",
+      thumbnail: "./images/thumbnails/Florida man makes friends with gator.png",
+      hash: "0632a074b782a00c6506ad63710e2ed21e5c34be5e24b2ce1751db4aa3dd8a27",
+    },
+
+    {
+      description: "Google Meat",
+      file: "./images/Google Meat.png",
+      thumbnail: "./images/thumbnails/Google Meat.png",
+      hash: "edf410b7fe09c2b6c254489d1b71e5525ee41dcd6366493a10c54575ad78f7b3",
+    },
+
+    {
       description: "OpenAI can be really slow",
       file: "./images/OpenAI can be really slow.png",
       thumbnail: "./images/thumbnails/OpenAI can be really slow.png",
@@ -199,10 +213,24 @@ export default function listImages() {
     },
 
     {
+      description: "Publishing a website",
+      file: "./images/Publishing a website.png",
+      thumbnail: "./images/thumbnails/Publishing a website.png",
+      hash: "df8b287724dc2745c4a00b14f74299e8e0e771fef8848a139814982ab711f9ce",
+    },
+
+    {
       description: "Selfie of Brian Wilson",
       file: "./images/Selfie of Brian Wilson.png",
       thumbnail: "./images/thumbnails/Selfie of Brian Wilson.png",
       hash: "8a00a9c4b191b653249a2d3e978d69e19a0f2412bbec9f07f76fec13cb382c96",
+    },
+
+    {
+      description: "Ships from the age of sail in space",
+      file: "./images/Ships from the age of sail in space.png",
+      thumbnail: "./images/thumbnails/Ships from the age of sail in space.png",
+      hash: "36ed218cbe45b5aeed8e6866bbe6835c7fc29c061c4862a034068eccc5faf33a",
     },
 
     {
@@ -241,17 +269,17 @@ export default function listImages() {
     },
 
     {
-      description: "Ships from the age of sail in space",
-      file: "./images/Ships from the age of sail in space.png",
-      thumbnail: "./images/thumbnails/Ships from the age of sail in space.png",
-      hash: "36ed218cbe45b5aeed8e6866bbe6835c7fc29c061c4862a034068eccc5faf33a",
-    },
-
-    {
       description: "Trogdor in a table top role playing game",
       file: "./images/Trogdor in a table top role playing game.png",
       thumbnail: "./images/thumbnails/Trogdor in a table top role playing game.png",
       hash: "bfcf08107837324c6dcae7277dd98e40a6a20f973b7c8451f8ac844a799ab774",
+    },
+
+    {
+      description: "Website 404 page with raccoons and chairs",
+      file: "./images/Website 404 page with raccoons and chairs.png",
+      thumbnail: "./images/thumbnails/Website 404 page with raccoons and chairs.png",
+      hash: "2e63abe8db08cea19875936506960819643b20725a6488af227d04170321624c",
     },
 
     {
@@ -290,10 +318,10 @@ export default function listImages() {
     },
 
     {
-      description: "Website 404 page with raccoons and chairs",
-      file: "./images/Website 404 page with raccoons and chairs.png",
-      thumbnail: "./images/thumbnails/Website 404 page with raccoons and chairs.png",
-      hash: "2e63abe8db08cea19875936506960819643b20725a6488af227d04170321624c",
+      description: "a unix screenshot from 1988",
+      file: "./images/a unix screenshot from 1988.png",
+      thumbnail: "./images/thumbnails/a unix screenshot from 1988.png",
+      hash: "a7e2d4b1a507807d07efc785d02a1a7c04e6ee47dc874ed7c7f052474d091eec",
     },
 
     {
@@ -304,10 +332,10 @@ export default function listImages() {
     },
 
     {
-      description: "architect-playing-jenga",
-      file: "./images/architect-playing-jenga.png",
-      thumbnail: "./images/thumbnails/architect-playing-jenga.png",
-      hash: "def710b3b5e231cc949e63f209f4b60a2d50da1bf8fab6711bfcdcd0ce6bbfe1",
+      description: "Raccoons howling at the moon",
+      file: "./images/Raccoons howling at the moon.png",
+      thumbnail: "./images/thumbnails/Raccoons howling at the moon.png",
+      hash: "a1c011735f2aabde556090e9e0646711832664906c8a4c319ebab0e6859624be",
     },
 
     {
@@ -318,13 +346,6 @@ export default function listImages() {
     },
 
     {
-      description: "Raccoons howling at the moon",
-      file: "./images/Raccoons howling at the moon.png",
-      thumbnail: "./images/thumbnails/Raccoons howling at the moon.png",
-      hash: "a1c011735f2aabde556090e9e0646711832664906c8a4c319ebab0e6859624be",
-    },
-
-    {
       description: "draw an AI robot being controlled by a raccoon",
       file: "./images/draw an AI robot being controlled by a raccoon.png",
       thumbnail: "./images/thumbnails/draw an AI robot being controlled by a raccoon.png",
@@ -332,17 +353,24 @@ export default function listImages() {
     },
 
     {
-      description: "draw raccoons writing software in anime style",
-      file: "./images/draw raccoons writing software in anime style.png",
-      thumbnail: "./images/thumbnails/draw raccoons writing software in anime style.png",
-      hash: "b481213ff21f064823b577090710a5440ee49915ec78b46e7c2018a38834ba1f",
+      description: "architect-playing-jenga",
+      file: "./images/architect-playing-jenga.png",
+      thumbnail: "./images/thumbnails/architect-playing-jenga.png",
+      hash: "def710b3b5e231cc949e63f209f4b60a2d50da1bf8fab6711bfcdcd0ce6bbfe1",
     },
 
     {
-      description: "a unix screenshot from 1988",
-      file: "./images/a unix screenshot from 1988.png",
-      thumbnail: "./images/thumbnails/a unix screenshot from 1988.png",
-      hash: "a7e2d4b1a507807d07efc785d02a1a7c04e6ee47dc874ed7c7f052474d091eec",
+      description: "eat sleep rave repeat",
+      file: "./images/eat sleep rave repeat.png",
+      thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
+      hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
+    },
+
+    {
+      description: "generic handsome man",
+      file: "./images/generic handsome man.png",
+      thumbnail: "./images/thumbnails/generic handsome man.png",
+      hash: "dd5e07650040e25730addbf97ae587ceaee0afb72a75c9ed4965a595d9b55c8e",
     },
 
     {
@@ -353,10 +381,10 @@ export default function listImages() {
     },
 
     {
-      description: "hinge dating profile of a raccoon with dreadlocks made out of pasta",
-      file: "./images/hinge dating profile of a raccoon with dreadlocks made out of pasta.png",
-      thumbnail: "./images/thumbnails/hinge dating profile of a raccoon with dreadlocks made out of pasta.png",
-      hash: "2fadf720dab90533b04cae1b471a7825efe311c7f1b095f756bcb3caea1ce789",
+      description: "Lying in bed, just like Brian Wilson did",
+      file: "./images/Lying in bed, just like Brian Wilson did.png",
+      thumbnail: "./images/thumbnails/Lying in bed, just like Brian Wilson did.png",
+      hash: "ef3b856587c2e07776e3b0c9f2104ca7e65b940b2af1e82b27d003d93ca8682b",
     },
 
     {
@@ -381,6 +409,13 @@ export default function listImages() {
     },
 
     {
+      description: "Florida man works as QE for TrustCloud",
+      file: "./images/Florida man works as QE for TrustCloud.png",
+      thumbnail: "./images/thumbnails/Florida man works as QE for TrustCloud.png",
+      hash: "fcf1cb6ad81cb946ef28a6fc885373e24d402c35d5f6a5870af9334943616b4b",
+    },
+
+    {
       description: "pixel art image of a college party",
       file: "./images/pixel art image of a college party.png",
       thumbnail: "./images/thumbnails/pixel art image of a college party.png",
@@ -395,10 +430,10 @@ export default function listImages() {
     },
 
     {
-      description: "pixelart image of software construction",
-      file: "./images/pixelart image of software construction.png",
-      thumbnail: "./images/thumbnails/pixelart image of software construction.png",
-      hash: "f91de43ee234117a9f6a0eed8a6fca94439998a6b13dbdbf1409d367dd4e9827",
+      description: "draw raccoons writing software in anime style",
+      file: "./images/draw raccoons writing software in anime style.png",
+      thumbnail: "./images/thumbnails/draw raccoons writing software in anime style.png",
+      hash: "b481213ff21f064823b577090710a5440ee49915ec78b46e7c2018a38834ba1f",
     },
 
     {
@@ -409,17 +444,10 @@ export default function listImages() {
     },
 
     {
-      description: "propaganda poster about not believing propaganda",
-      file: "./images/propaganda poster about not believing propaganda.png",
-      thumbnail: "./images/thumbnails/propaganda poster about not believing propaganda.png",
-      hash: "c403db6c7832a09e71ce43d1de517321bfa5fc2cf798797de664a3bef242e464",
-    },
-
-    {
-      description: "propaganda poster about safe computing",
-      file: "./images/propaganda poster about safe computing.png",
-      thumbnail: "./images/thumbnails/propaganda poster about safe computing.png",
-      hash: "fdf0596ba24ea5556f7d75856b1225051046f9ec7cf011de9764873b6e37af23",
+      description: "hinge dating profile of a raccoon with dreadlocks made out of pasta",
+      file: "./images/hinge dating profile of a raccoon with dreadlocks made out of pasta.png",
+      thumbnail: "./images/thumbnails/hinge dating profile of a raccoon with dreadlocks made out of pasta.png",
+      hash: "2fadf720dab90533b04cae1b471a7825efe311c7f1b095f756bcb3caea1ce789",
     },
 
     {
@@ -493,24 +521,24 @@ export default function listImages() {
     },
 
     {
-      description: "taekwondo sparring in anime style",
-      file: "./images/taekwondo sparring in anime style.png",
-      thumbnail: "./images/thumbnails/taekwondo sparring in anime style.png",
-      hash: "50097542ddf0c3a863621e2d4356201aa15109896abde13b6ffe4c019a47dd37",
+      description: "pixelart image of software construction",
+      file: "./images/pixelart image of software construction.png",
+      thumbnail: "./images/thumbnails/pixelart image of software construction.png",
+      hash: "f91de43ee234117a9f6a0eed8a6fca94439998a6b13dbdbf1409d367dd4e9827",
     },
 
     {
-      description: "the brian wilson of india",
-      file: "./images/the brian wilson of india.png",
-      thumbnail: "./images/thumbnails/the brian wilson of india.png",
-      hash: "389d42eeb2ea81b88b07596d71a1e58d72b94bcd2747a19f74fbcd26b641fc12",
+      description: "propaganda poster about safe computing",
+      file: "./images/propaganda poster about safe computing.png",
+      thumbnail: "./images/thumbnails/propaganda poster about safe computing.png",
+      hash: "fdf0596ba24ea5556f7d75856b1225051046f9ec7cf011de9764873b6e37af23",
     },
 
     {
-      description: "the brian wilson of worcester, ma",
-      file: "./images/the brian wilson of worcester, ma.png",
-      thumbnail: "./images/thumbnails/the brian wilson of worcester, ma.png",
-      hash: "af0b7705605bf8cb6360dc8d99a869c39da454b00f1ec433b596c597db97076f",
+      description: "propaganda poster about not believing propaganda",
+      file: "./images/propaganda poster about not believing propaganda.png",
+      thumbnail: "./images/thumbnails/propaganda poster about not believing propaganda.png",
+      hash: "c403db6c7832a09e71ce43d1de517321bfa5fc2cf798797de664a3bef242e464",
     },
 
     {
@@ -549,24 +577,24 @@ export default function listImages() {
     },
 
     {
+      description: "the brian wilson of india",
+      file: "./images/the brian wilson of india.png",
+      thumbnail: "./images/thumbnails/the brian wilson of india.png",
+      hash: "389d42eeb2ea81b88b07596d71a1e58d72b94bcd2747a19f74fbcd26b641fc12",
+    },
+
+    {
+      description: "the brian wilson of worcester, ma",
+      file: "./images/the brian wilson of worcester, ma.png",
+      thumbnail: "./images/thumbnails/the brian wilson of worcester, ma.png",
+      hash: "af0b7705605bf8cb6360dc8d99a869c39da454b00f1ec433b596c597db97076f",
+    },
+
+    {
       description: "three wolf moon but with raccoons",
       file: "./images/three wolf moon but with raccoons.png",
       thumbnail: "./images/thumbnails/three wolf moon but with raccoons.png",
       hash: "9b42ab9b044be959e5ac3fdcd7b6952f5211f3f5ae70dde7405e18df93f484d2",
-    },
-
-    {
-      description: "trophy for throwing chairs",
-      file: "./images/trophy for throwing chairs.png",
-      thumbnail: "./images/thumbnails/trophy for throwing chairs.png",
-      hash: "7781eb45bf9e9472a6c952cceb8d1139c7f10ecc97b98cefe8dd634743e9916c",
-    },
-
-    {
-      description: "vhs still image of a hypercar at night",
-      file: "./images/vhs still image of a hypercar at night.png",
-      thumbnail: "./images/thumbnails/vhs still image of a hypercar at night.png",
-      hash: "b8961b9baf65fcfd57e1c5bbbe4154c222f297384b71363ce10c404a83d2eef9",
     },
 
     {
@@ -577,24 +605,24 @@ export default function listImages() {
     },
 
     {
-      description: "Publishing a website",
-      file: "./images/Publishing a website.png",
-      thumbnail: "./images/thumbnails/Publishing a website.png",
-      hash: "df8b287724dc2745c4a00b14f74299e8e0e771fef8848a139814982ab711f9ce",
+      description: "taekwondo sparring in anime style",
+      file: "./images/taekwondo sparring in anime style.png",
+      thumbnail: "./images/thumbnails/taekwondo sparring in anime style.png",
+      hash: "50097542ddf0c3a863621e2d4356201aa15109896abde13b6ffe4c019a47dd37",
     },
 
     {
-      description: "generic handsome man",
-      file: "./images/generic handsome man.png",
-      thumbnail: "./images/thumbnails/generic handsome man.png",
-      hash: "dd5e07650040e25730addbf97ae587ceaee0afb72a75c9ed4965a595d9b55c8e",
+      description: "vhs still image of a hypercar at night",
+      file: "./images/vhs still image of a hypercar at night.png",
+      thumbnail: "./images/thumbnails/vhs still image of a hypercar at night.png",
+      hash: "b8961b9baf65fcfd57e1c5bbbe4154c222f297384b71363ce10c404a83d2eef9",
     },
 
     {
-      description: "eat sleep rave repeat",
-      file: "./images/eat sleep rave repeat.png",
-      thumbnail: "./images/thumbnails/eat sleep rave repeat.png",
-      hash: "44a34cb4ef3f8cf363d8b64cf75c1f28deaded41db8def03b780e134bf35cd8d",
+      description: "trophy for throwing chairs",
+      file: "./images/trophy for throwing chairs.png",
+      thumbnail: "./images/thumbnails/trophy for throwing chairs.png",
+      hash: "7781eb45bf9e9472a6c952cceb8d1139c7f10ecc97b98cefe8dd634743e9916c",
     },
 
   ];
